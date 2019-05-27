@@ -1,0 +1,50 @@
+the IP address of my mobile phone:192.168.1.125
+the IP of my computer: 192.168.1.37
+
+activity 3
+C:\Users\Angele Biloah>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=5ms TTL=55
+Reply from 8.8.8.8: bytes=32 time=7ms TTL=55
+Reply from 8.8.8.8: bytes=32 time=4ms TTL=55
+Reply from 8.8.8.8: bytes=32 time=6ms TTL=55
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 7ms, Average = 5ms
+activity 4
+C:\Users\Angele Biloah>ping 192.168.1.37
+
+Pinging 192.168.1.37 with 32 bytes of data:
+Reply from 192.168.1.37: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.37: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.37: bytes=32 time<1ms TTL=128
+Reply from 192.168.1.37: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.1.37:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+    activity 7
+    ping www.google.com
+
+
+    activity 8 ping github.com
+
+C:\Users\Angele Biloah>ping github.com
+
+Pinging github.com [140.82.118.4] with 32 bytes of data:
+Reply from 140.82.118.4: bytes=32 time=41ms TTL=54
+Reply from 140.82.118.4: bytes=32 time=35ms TTL=54
+Reply from 140.82.118.4: bytes=32 time=36ms TTL=54
+Reply from 140.82.118.4: bytes=32 time=36ms TTL=54
+
+Ping statistics for 140.82.118.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 35ms, Maximum = 41ms, Average = 37ms
+Helllo!!!! just writing into your file!
+Helllo!!!! just writing into your file!
