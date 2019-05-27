@@ -5,14 +5,14 @@ IP = "192.168.1.37"
 #Maximum number of clients that can connect to this server
 MAX_OPEN_REQUEST = 5
 
-def check(s):
+def testing(s):
     for i in s:
         if i != "A" and i != "T" and i != "C" and i != "G":
             seq = "bad"
             break
         else:
             seq = "good"
-    if seq == "bad":
+    if  seq == "bad":
         print("ERROR")
     else:
         print("OK")
@@ -56,11 +56,11 @@ def count_T(s):
 
 def count_C(s):
     result_C = 0
-    for x in s:
-        if x == "C":
+    for i in s:
+        if i == "C":
             result_C += 1
-    x = result_C
-    return x
+    i = result_C
+    return i
 
 def count_G(s):
     num_G = 0
@@ -131,7 +131,7 @@ def process_client(cs):
     if message[0] == "":
         print("ALIVE")
     else:
-        check(message[0])
+        testing(message[0])
         for i in message:
             if i == "len":
                 len = length(message[0])
